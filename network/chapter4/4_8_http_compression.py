@@ -6,9 +6,9 @@ import gzip
 import cStringIO
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 
-DEFAULT_HOST = '127.0.0.1'
+DEFAULT_HOST = ''
 DEFAULT_PORT = 8800
-HTML_CONTENT = """<html><body><h1>Compressed Hello World!--Siukwan</h1></body></html>"""
+HTML_CONTENT = """<html><body><h1>Happy lunar new year!--Siukwan</h1></body></html>"""
 
 class RequestHandler(BaseHTTPRequestHandler):
 	""" Custom request handler"""
